@@ -1,0 +1,15 @@
+com/example/hl7poc/config/AppConfig.class
+com/example/hl7poc/config/FhirClientProperties$Mode.class
+com/example/hl7poc/controller/GlobalExceptionHandler.class
+com/example/hl7poc/dto/PatientCreateRequest$NameDto.class
+com/example/hl7poc/service/FhirPatientService.class
+com/example/hl7poc/config/OpenApiConfig.class
+com/example/hl7poc/dto/PatientCreateRequest$AddressDto.class
+com/example/hl7poc/dto/PatientCreateRequest$TelecomDto.class
+com/example/hl7poc/dto/PatientCreateRequest$IdentifierDto.class
+com/example/hl7poc/dto/PatientCreateRequest.class
+com/example/hl7poc/client/FhirHttpClient.class
+com/example/hl7poc/config/FhirClientProperties.class
+com/example/hl7poc/controller/FhirController.class
+com/example/hl7poc/client/FhirClientException.class
+com/example/hl7poc/HL7PocApplication.class

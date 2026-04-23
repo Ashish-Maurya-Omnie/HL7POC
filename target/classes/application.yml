@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: HL7POC
+
+server:
+  port: 8081
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+fhir:
+  client:
+    mode: LOCAL
+    local-base-url: http://localhost:8080/fhir
+    aws-base-url: ""
+    aws-region: us-east-1
+    connect-timeout: 10s
+    read-timeout: 30s

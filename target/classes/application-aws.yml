@@ -1,0 +1,6 @@
+fhir:
+  client:
+    mode: AWS
+    # Example: https://healthlake.<region>.amazonaws.com/datastore/<datastore-id>/r4
+    aws-base-url: ${FHIR_CLIENT_AWS_BASE_URL:}
+    aws-region: ${FHIR_CLIENT_AWS_REGION:us-east-1}
